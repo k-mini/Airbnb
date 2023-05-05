@@ -159,3 +159,37 @@ section {
     margin-top : 20px;
 }
 
+.home__img {
+    background-image : url("../images/home1.png");
+    height : 180px;
+    background-size: 100% 100%;
+}
+
+.home__box {
+    display : grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap : 10px;
+    margin-top : 20px;
+}
+
+.info1 {
+    margin : 5px 0 ;
+    font-size : 13px;
+    color : gray;
+}
+
+.info2 {
+    font-size : 18px;
+    font-weight: 600;
+    color : rgb(60,60,60);
+}
+
+.star {
+    font-size : 12px;
+    color : rgb(30,120,115);
+    font-weight: 800;
+}
+
+.count, .type{
+    font-size : 12px;
+}
